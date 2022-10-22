@@ -2,4 +2,5 @@
     <string name="app_name">KCAU Voting App</string>
     <string name="admin">ADMINISTRATOR</string>
     <string name="std">STUDENT</string>
+    <string name="img">Image</string>
 </resources>
