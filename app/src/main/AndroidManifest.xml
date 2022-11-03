@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KCAUVotingApp">
         <activity
+            android:name=".ui.login.Student_LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_student_login" />
+        <activity
+            android:name=".MyDashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".nominee_prof"
             android:exported="false">
             <meta-data
