@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789298424808",
+    "project_id": "kcauvottingapp",
+    "storage_bucket": "kcauvottingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789298424808:android:2662832e5aa728032a525d",
+        "android_client_info": {
+          "package_name": "uk.cmd.kcauvotingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789298424808-d2hqkjldkk3qoh3kal8pvo7iita7ep9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByLPoNFfl7imDmj_nylmSqaehsBp2WTEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789298424808-d2hqkjldkk3qoh3kal8pvo7iita7ep9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
