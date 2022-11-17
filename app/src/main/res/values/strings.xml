@@ -3,16 +3,42 @@
     <string name="admin">ADMINISTRATOR</string>
     <string name="std">STUDENT</string>
     <string name="img">Image</string>
-    <string name="view">View</string>
+    <string name="vote">Vote</string>
     <string name="username">Username</string>
     <string name="description">Description</string>
     <string name="login">LOGIN</string>
-    <string name="adm">Enter Your Admission Number</string>
-    <string name="email">Enter your Email Address</string>
-    <string name="forgot">Forget Password?</string>
-    <string name="password">Enter Strong Password</string>
+    <string name="adm"> Admission Number</string>
+    <string name="email">Email Address</string>
+    <string name="forgot"><u>Forget Password?</u></string>
+    <string name="password">Password</string>
     <string name="reg">REGISTER</string>
-    <string name="name">Enter Your name</string>
+    <string name="register"><u>Register</u></string>
+    <string name="confirm">Confirm Password</string>
+    <string name="name"> Full Name</string>
     <string name="pass">Confirm Password</string>
+    <string name="dashboard">My Dashboard</string>
+    <string name="alreadyHave"><u>Already Have An Account? Login</u></string>
+    <string name="create">Create An Account</string>
+    <string name="reset">RESET PASSWORD</string>
+    <string name="current">Current Password</string>
+    <string name="course">Course</string>
+    <string name="request">REQUEST TO BE A CANDIDATE</string>
+
+    <array name="txtUsername">
+        <item>Dillah</item>
+        <item>Mary</item>
+        <item>Gellar</item>
+        <item>Amir Shar</item>
+        <item>Nelson Ment</item>
+        <item>Perry Nice</item>
+        <item>Huldah Mera</item>
+        <item>Dun Can</item>
+        <item>Cessar Cun</item>
+        <item>Melow Sema</item>
+
+
+    </array>
+    <string name="txtDescription">This is the description for all items.</string>
+
 
 </resources>

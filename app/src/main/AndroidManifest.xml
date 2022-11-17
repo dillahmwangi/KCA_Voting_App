@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KCAUVotingApp">
         <activity
+            android:name=".std_profile"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".resetPassword"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".admin_login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".StdRegActivity"
             android:exported="false">
             <meta-data
@@ -23,7 +44,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".MyDashboard"
             android:exported="false">
@@ -39,14 +59,15 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".regActivity"
+            android:name=".adminRegActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity android:name=".NextActivity" />
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

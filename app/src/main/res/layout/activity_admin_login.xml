@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StdLoginActivity"
+    tools:context=".admin_login"
     android:background="@drawable/cut_card">
 
 
@@ -38,7 +39,9 @@
         android:drawablePadding="10dp"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+        android:ellipsize="start"
+        android:gravity="center"/>
 
     <EditText
         android:id="@+id/password"
@@ -53,7 +56,9 @@
         android:drawablePadding="10dp"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+        android:ellipsize="start"
+        android:gravity="center"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/login_btn"
@@ -69,9 +74,10 @@
         android:text="@string/login"
         android:textColor="@color/white"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"/>
 
     <TextView
+        android:id="@+id/txtForget"
         android:layout_width="195dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/password"
@@ -82,7 +88,6 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-
         android:textAlignment="center"/>
 
     <TextView

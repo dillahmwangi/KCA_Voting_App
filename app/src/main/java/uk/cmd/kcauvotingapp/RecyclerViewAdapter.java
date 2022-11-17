@@ -13,26 +13,26 @@ import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class ReyclerViewAdapter extends RecyclerView.Adapter<ReyclerViewAdapter.MyViewHolder> {
+public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
 
     Context context;
     List<single_view> list;
 
-    public ReyclerViewAdapter(Context context, List<single_view> list) {
+    public RecyclerViewAdapter(Context context, List<single_view> list) {
         this.context = context;
         this.list = list;
     }
 
     @NonNull
     @Override
-    public ReyclerViewAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public RecyclerViewAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.single_view,parent,false);
         return new MyViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ReyclerViewAdapter.MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerViewAdapter.MyViewHolder holder, int position) {
         holder.profile_image.setImageResource(list.get(position).getprofile_image());
         holder.txtUsername.setText(list.get(position).gettxtUsername());
         holder.txtDescription.setText(list.get(position).gettxtDescription());
@@ -41,7 +41,8 @@ public class ReyclerViewAdapter extends RecyclerView.Adapter<ReyclerViewAdapter.
 
     @Override
     public int getItemCount() {
-        return 0;
+
+        return list.size();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {

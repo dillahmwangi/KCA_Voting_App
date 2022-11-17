@@ -4,13 +4,14 @@ public class single_view {
     private int profile_image;
     private String txtUsername,txtDescription;
 
-    public single_view(int imageProfile, String txtUsernameusername, String txtDescription) {
+    public single_view(int imageProfile, String txtUsername, String txtDescription) {
         this.profile_image = profile_image;
         this.txtUsername= txtUsername;
         this.txtDescription = txtDescription;
     }
 
     public int getprofile_image() {
+
         return profile_image;
     }
 
